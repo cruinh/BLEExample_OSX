@@ -7,8 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "CBPeripheralViewModel.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate,CBPeripheralViewModelDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
 

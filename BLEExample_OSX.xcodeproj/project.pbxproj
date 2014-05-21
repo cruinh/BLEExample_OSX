@@ -18,6 +18,8 @@
 		AA7AB3AB19254E490018DA2B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7AB38A19254E490018DA2B /* Cocoa.framework */; };
 		AA7AB3B319254E490018DA2B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA7AB3B119254E490018DA2B /* InfoPlist.strings */; };
 		AA7AB3B519254E490018DA2B /* BLEExample_OSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7AB3B419254E490018DA2B /* BLEExample_OSXTests.m */; };
+		AA7AB3C319254FBC0018DA2B /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7AB3C119254EC00018DA2B /* IOBluetooth.framework */; };
+		AA7AB3C619254FF00018DA2B /* CBPeripheralViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7AB3C519254FF00018DA2B /* CBPeripheralViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 		AA7AB3B019254E490018DA2B /* BLEExample_OSXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLEExample_OSXTests-Info.plist"; sourceTree = "<group>"; };
 		AA7AB3B219254E490018DA2B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA7AB3B419254E490018DA2B /* BLEExample_OSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEExample_OSXTests.m; sourceTree = "<group>"; };
+		AA7AB3C119254EC00018DA2B /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		AA7AB3C419254FF00018DA2B /* CBPeripheralViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBPeripheralViewModel.h; sourceTree = "<group>"; };
+		AA7AB3C519254FF00018DA2B /* CBPeripheralViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBPeripheralViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA7AB3C319254FBC0018DA2B /* IOBluetooth.framework in Frameworks */,
 				AA7AB38B19254E490018DA2B /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +101,7 @@
 		AA7AB38919254E490018DA2B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AA7AB3C119254EC00018DA2B /* IOBluetooth.framework */,
 				AA7AB38A19254E490018DA2B /* Cocoa.framework */,
 				AA7AB3A919254E490018DA2B /* XCTest.framework */,
 				AA7AB38C19254E490018DA2B /* Other Frameworks */,
@@ -117,6 +124,8 @@
 			children = (
 				AA7AB39C19254E490018DA2B /* AppDelegate.h */,
 				AA7AB39D19254E490018DA2B /* AppDelegate.m */,
+				AA7AB3C419254FF00018DA2B /* CBPeripheralViewModel.h */,
+				AA7AB3C519254FF00018DA2B /* CBPeripheralViewModel.m */,
 				AA7AB39F19254E490018DA2B /* MainMenu.xib */,
 				AA7AB3A219254E490018DA2B /* Images.xcassets */,
 				AA7AB39119254E490018DA2B /* Supporting Files */,
@@ -252,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA7AB3C619254FF00018DA2B /* CBPeripheralViewModel.m in Sources */,
 				AA7AB39E19254E490018DA2B /* AppDelegate.m in Sources */,
 				AA7AB39719254E490018DA2B /* main.m in Sources */,
 			);
